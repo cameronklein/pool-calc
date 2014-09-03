@@ -76,6 +76,14 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard)
     }
+    
+    func presentationCountForPageViewController(pageViewController: UIPageViewController!) -> Int {
+        return 4
+    }
+    
+    func presentationIndexForPageViewController(pageViewController: UIPageViewController!) -> Int {
+        return 0
+    }
 
 }
 

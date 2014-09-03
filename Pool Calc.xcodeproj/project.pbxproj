@@ -14,6 +14,7 @@
 		7E427F5619B6B89F0095601D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E427F5419B6B89F0095601D /* Main.storyboard */; };
 		7E427F5819B6B89F0095601D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E427F5719B6B89F0095601D /* Images.xcassets */; };
 		7E427F6419B6B89F0095601D /* Pool_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E427F6319B6B89F0095601D /* Pool_CalcTests.swift */; };
+		7E427F6E19B6BB300095601D /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E427F6D19B6BB300095601D /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7E427F5D19B6B89F0095601D /* Pool CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pool CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E427F6219B6B89F0095601D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E427F6319B6B89F0095601D /* Pool_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pool_CalcTests.swift; sourceTree = "<group>"; };
+		7E427F6D19B6BB300095601D /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				7E427F4C19B6B89F0095601D /* AppDelegate.swift */,
 				7E427F4E19B6B89F0095601D /* RootViewController.swift */,
+				7E427F6D19B6BB300095601D /* PageControl.swift */,
 				7E427F5019B6B89F0095601D /* DataViewController.swift */,
 				7E427F5219B6B89F0095601D /* ModelController.swift */,
 				7E427F5419B6B89F0095601D /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E427F6E19B6BB300095601D /* PageControl.swift in Sources */,
 				7E427F4F19B6B89F0095601D /* RootViewController.swift in Sources */,
 				7E427F5319B6B89F0095601D /* ModelController.swift in Sources */,
 				7E427F5119B6B89F0095601D /* DataViewController.swift in Sources */,
